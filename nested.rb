@@ -56,7 +56,7 @@ def dennis_ritchies_language
           :languages => ["C"]
         }
      }
-     programmer_hash[:grace_hopper][:languages].keys.to_s
+     programmer_hash[:grace_hopper][:languages][0]
      programmer_hash
 end
 
